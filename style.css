@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    /* background-image: linear-gradient(-25deg, rgba(255, 166, 64, 0.767) 25%, rgba(255, 157, 239, 0.568) 60%, rgba(235, 213, 91, 0.966) 100%); */
+    background-image: url(./assets/background05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 140%;
+    margin-top: 80px;
+
+}
+
+main {
+    background-color: #ffffffc2;
+    display: inline-block;
+    border-radius: 70px;
+    padding: 25px;
+    width: 365px;
+}
+
+em {
+    font-style: italic;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profilePhoto {
+    border-radius: 100px;
+    background-image: linear-gradient(60deg, #b6abe7cb 30%, #00c1ecc0 50%, #f6ab55cb 70%);
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+.presentation {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.contactTitle {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contactList {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
